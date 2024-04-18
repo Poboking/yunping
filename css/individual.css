@@ -1,0 +1,111 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(231, 234, 236, 1) 0%, rgba(204, 238, 219, 1) 100%);
+
+}
+
+.footer {
+    width: 100%;
+    height: 541.33px;
+    margin-bottom: -50px;
+}
+
+.head {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+}
+
+.nr {
+
+    margin: auto;
+    margin-top: 110px;
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    
+}
+
+.qwgfqf{
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.wegwev{
+    width: 65px;
+    height: 65px;
+    margin: 0px 10px 15px 20px;
+float: left;
+border-radius: 50%;
+}
+.wqefewqvf{
+    float: left;
+    width: calc(50% - 120px);
+    margin-top: 0px;
+    font-size: 22px;
+    margin-bottom: -10px;
+
+}
+
+.savfavva{
+    float: left;
+    width: calc(50% - 120px);
+    margin-top: 6px;
+    color: grey;
+    margin-top: -5px;
+    font-size: 14px;
+}
+.wegg{
+    float: left;
+    width: calc(50% - 120px); 
+    font-size: 14px;
+
+}
+
+.safsav{
+    float: left;
+    width: calc(50% - 70px);
+    margin-top: 6px;
+    color: grey;
+    font-size: 14px;   
+}
+
+.xialak{
+    background: white;
+    width: 140px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+    float: left;
+    outline: none;
+    margin-top: 5px;
+    margin-left: 95px;
+}
+.qwfqfq{
+    position: relative;
+    width: 100%;
+}
+
+.qawefev{
+    float: left;
+    margin-right: 40px;
+}
+.qawefev:first-child{
+    margin-left: 20px;
+}
+
+.wegwev{
+    
+}

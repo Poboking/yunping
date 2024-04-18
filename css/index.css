@@ -1,0 +1,387 @@
+ 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ 
+ 
+ 
+.head{
+    width: 100%;
+    height:80px;
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+}
+ 
+
+.nr {
+    width: 1200px;
+
+    margin: auto;
+    margin-top: 98px;
+    overflow: hidden;
+    position: relative;
+}
+
+.searchBox {
+    width: calc(100% - 105px);
+    float: right;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #57a978;
+}
+
+.search {
+    background: none;
+    outline: none;
+    width: calc(100% - 173px);
+    height: 26px;
+    margin: 9px;
+    border: 0px;
+    font-size: 16px;
+}
+
+.searchButton {
+    width: 110px;
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    background: #57a978;
+    float: right;
+}
+
+.lbtleft {
+    background: linear-gradient(180deg, rgb(37 9 108), #5ca591);
+    width: 240px;
+    height: 340px;
+    border-radius: 12px;
+    margin-top: 10px;
+    float: left;
+}
+
+.rbtleft {
+    background: linear-gradient(180deg, rgb(37 9 108), #5ca591);
+    width: 240px;
+    height: 340px;
+    border-radius: 12px;
+    margin-top: 10px;
+    float: left;
+
+}
+
+.lbtleft>p {
+    text-align: center;
+    color: white;
+    margin: 40px 0px;
+}
+
+.lbt {
+    width: 688px;
+    height: 339px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.rbtleft {
+    width: 234px;
+    height: 333px;
+    float: left;
+    background: #bcd6c7;
+    border: 3px solid rgb(0, 119, 255);
+}
+
+.tp {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.mokuai {
+    width: 100%;
+    margin-top: 370px;
+    background: linear-gradient(180deg, #ccefda, #e7eaec);
+    position: relative;
+    border-radius: 13px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.inputbox {
+    border: 2px solid grey;
+    width: 180px;
+    margin: auto;
+    margin-top: 2px;
+    height: 24px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.user,
+.password {
+    margin-left: 10px;
+    width: 163px;
+    outline: none;
+    background: none;
+    border: 0px;
+}
+
+.remember,
+.agree {
+    font-size: 11px;
+    float: left;
+    margin-top: 1px;
+    margin-top: -3px;
+}
+
+.login {
+    margin-top: 20px;
+    width: 184px;
+    margin: auto;
+    margin-top: 14px;
+    height: 29px;
+    border-radius: 5px;
+    background: #299153;
+    margin-left: 25px;
+    border: 0px;
+    text-align: center;
+    line-height: 29px;
+    color: white;
+}
+
+.zweg {
+    text-align: center;
+    font-size: 10px;
+    margin-left: 32px;
+}
+
+.lijizhuce {
+    color: rgb(90, 161, 255);
+    text-decoration: none;
+}
+
+.mokuai>h1 {
+    margin: auto;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.dsfg {
+    position: absolute;
+    width: 200px;
+    top: 62px;
+    left: 256px;
+    height: 340px;
+    width: 450px;
+    border-radius: 14px;
+    background: rgba(240, 237, 237, 0.98);
+
+    display: none;
+}
+
+.rbtleft>a {
+
+
+    color: rgba(41, 145, 83, 1);
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+.dsfg>p {
+    margin-left: 20px;
+}
+
+.dsfg>span {
+    font-size: 12px;
+}
+
+.cdwcs {
+    width: 220px;
+    height: 115px;
+    background: white;
+    float: left;
+    border-radius: 8px;
+    margin-left: 64px;
+    margin-top: 23px;
+    overflow: hidden;
+    margin-bottom: 26px;
+}
+
+.cdwcs1 {
+    width: 1072px;
+    height: 115px;
+    background: white;
+    float: left;
+    border-radius: 8px;
+    margin-left: 64px;
+    margin-top: 23px;
+    overflow: hidden;
+    margin-bottom: 26px;
+}
+
+.gongsilogo {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    float: left;
+}
+
+.cdwcs>span {
+    float: left;
+    font-size: 18px;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.csdc {
+    background: rgb(226, 226, 226);
+    color: #767676;
+    display: block;
+    width: 64px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    height: 21px;
+    font-size: 12px;
+    line-height: 21px;
+    border-radius: 4px;
+    margin-top: 36px;
+    margin-left: -56px;
+}
+
+.dsfdd,
+.dsfdd1 {
+    width: 100%;
+    height: 40px;
+    margin-top: 7px;
+    float: left;
+    background: #f1f1f1;
+}
+
+.dsfdd>span:nth-child(1) {
+    font-size: 13px;
+    margin: 11px 14px;
+    /* margin-top: 25px; */
+    display: block;
+    color: dimgrey;
+    border-right: 1px solid grey;
+    width: 34px;
+    float: left;
+}
+
+.dsfdd>span:nth-child(2) {
+    font-size: 13px;
+    margin: 10px 0px;
+    /* margin-top: 25px; */
+    display: block;
+    color: #39e4b6;
+    /* border-right: 1px solid grey; */
+    width: 114px;
+    float: left;
+    margin-left: -2px;
+    white-space: nowrap;
+    /* 确保文本在一行内显示 */
+    overflow: hidden;
+    /* 隐藏超出元素宽度的内容 */
+    text-overflow: ellipsis;
+    /* 显示省略号 */
+    width: 100px;
+}
+
+.dsfdd>span:nth-child(3) {
+    font-size: 13px;
+    margin: 10px 0px;
+    /* margin-top: 25px; */
+    display: block;
+    color: rgb(0, 219, 154);
+    /* border-right: 1px solid grey; */
+    width: 50px;
+    float: left;
+    margin-left: -2px;
+    float: right;
+    color: grey;
+}
+
+.dsfdd1>div {
+    font-size: 13px;
+    margin: 11px 14px;
+    margin-right: 0px;
+    /* margin-top: 25px; */
+    display: block;
+    color: dimgrey;
+    border-right: 1px solid grey;
+    float: left;
+    padding-right: 8px;
+
+}
+
+ 
+
+ 
+.fref {
+    width: 640px;
+    margin: auto;
+    /* position: relative; */
+    border-radius: 15px;
+    MARGIN-TOP: 20PX;
+    margin-left: calc(50% - 320px);
+    height: 350px;
+}
+
+.krthngrfn {
+    height: 100%;
+
+}
+
+.dwef {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.money {
+    float: left;
+    margin-left: 11px;
+    color: red;
+    margin-top: -5px;
+}
+
+.gterh {
+    float: left;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.wefewf {
+    padding-top: 7px;
+    float: left;
+
+}
+
+
+.footer {
+    width: 100%;
+    height:541.33px;
+    
+    margin-bottom: -50px;
+} 
+.address {
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-right: 8px;
+    margin-top: 10px;
+}

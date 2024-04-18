@@ -1,0 +1,298 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgb(238, 238, 238);
+}
+
+.footer {
+    width: 100%;
+    height: 541.33px;
+    margin-bottom: -50px;
+}
+
+.head {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+}
+
+.nr {
+    width: 1200px;
+
+    margin: auto;
+    margin-top: 98px;
+    position: relative;
+}
+
+.searchBox {
+    width: 100%;
+    float: right;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #57a978;
+}
+
+.search {
+    background: none;
+    outline: none;
+    width: calc(100% - 173px);
+    height: 26px;
+    margin: 9px;
+    border: 0px;
+    font-size: 16px;
+}
+
+.searchButton {
+    width: 110px;
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    background: #57a978;
+    float: right;
+    border-radius: 7px;
+}
+
+.weveq {
+    width: calc(100% - 46px);
+    margin-top: 10px;
+    background: linear-gradient(180deg, #ccefda, #e7eaec);
+    position: relative;
+    border-radius: 13px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding: 23px;
+}
+
+.vgeqagrt {
+    float: left;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #414141;
+    margin-right: 15px;
+
+}
+
+.eveq {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.wfwqc>span {
+    font-size: 13px;
+}
+
+.wfwqc {
+    float: left;
+    margin-right: 10px;
+    width: max-content;
+    padding: 1px 7px 4px 7px;
+    cursor: pointer;
+    background: white;
+    border-radius: 4px;
+    margin-top: 11px;
+}
+
+.sjx {
+    font-size: 10px;
+    margin-left: 4px;
+    margin-top: 1px;
+}
+
+.address {
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-right: 8px;
+    margin-top: 10px;
+} 
+ 
+
+.wrsgwsvbw{
+    width: calc(100% - 40px);
+    height: 570px;
+    padding: 20px;
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.eveq > .vgeqagrt:nth-child(1){
+    font-weight: bold;
+}
+
+.pageIndex{
+    width: max-content;
+    height: 40px;
+    margin: auto;
+    background: white;
+    float: left;
+    margin: 20px auto;
+    margin-left: -438px;
+    box-shadow:1px 2px 3px 1px #767676;
+    border-radius: 5px;
+    margin-top: 160px;
+    cursor: pointer;
+}
+.pageIndex > .evqcv{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid rgb(233, 233, 233);
+}
+
+
+
+.qwfqwf{
+    text-align: center;
+    padding: 10px 15px;
+    margin-right: 15px;
+    background: #57a978;
+    color: white;
+    border-radius: 10px;
+}
+
+.cdwcs {
+    width: 220px;
+    height: 110px;
+    background: #f1f1f1;
+    float: left;
+    border-radius: 8px;
+    /* margin-left: 64px; */
+    overflow: hidden;
+    margin-bottom: 26px;
+    margin: 20px 35px;
+    /* margin-top: 30px; */
+    /* margin-right: 70px;*/
+}
+
+.gongsilogo {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    float: left;
+}
+.firm_name{
+    float: left;
+    margin-top: 9px;
+    font-size: 15px;
+}
+
+
+.csdc {
+    background: rgb(226, 226, 226);
+    color: #767676;
+    display: block;
+    width: 64px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    height: 21px;
+    font-size: 12px;
+    line-height: 21px;
+    border-radius: 4px;
+    margin-top: 36px;
+    margin-left: -60px;
+}
+
+
+
+.dsfdd{
+    width: 100%;
+    height: 40px;
+    margin-top: 2px;
+    float: left;
+    background: #f1f1f1;
+}
+
+
+.dsfdd>span:nth-child(1) {
+    font-size: 13px;
+    margin: 11px 14px;
+    /* margin-top: 25px; */
+    display: block;
+    color: dimgrey;
+    border-right: 1px solid grey;
+    width: 34px;
+    float: left;
+}
+
+.dsfdd>span:nth-child(2) {
+    font-size: 13px;
+    margin: 10px 0px;
+    /* margin-top: 25px; */
+    display: block;
+    color: #39e4b6;
+    /* border-right: 1px solid grey; */
+    width: 114px;
+    float: left;
+    margin-left: -2px;
+    white-space: nowrap;
+    /* 确保文本在一行内显示 */
+    overflow: hidden;
+    /* 隐藏超出元素宽度的内容 */
+    text-overflow: ellipsis;
+    /* 显示省略号 */
+    width: 100px;
+}
+
+.dsfdd>span:nth-child(3) {
+    font-size: 13px;
+    margin: 10px 0px;
+    /* margin-top: 25px; */
+    display: block;
+    color: rgb(0, 219, 154);
+    /* border-right: 1px solid grey; */
+    width: 50px;
+    float: left;
+    margin-left: -2px;
+    float: right;
+    color: grey;
+}
+
+
+
+.cwevqav{
+    width: calc(100% - 5px);
+    height: 300px;
+    background: white;
+    position: relative;
+    margin-top: 82px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.wevvwqcv{
+    width: 100%;
+    height: 50px;
+    background: white;
+    border-bottom: 1px solid #cbcbcb; 
+}
+.wevvwqcv > span{
+    float: left;
+    padding: 0px 15px;
+    height: calc(100% - 2px);
+    font-size: 17px;
+    line-height: 50px; 
+}
+
+.wevgfcqe{
+    width: 100%;
+    height: calc(100% - 77px);
+    padding: 13px;
+}
+.wevgfcqe > span{
+    float: left;
+    margin-right: 26px;margin-bottom: 20px;
+}
